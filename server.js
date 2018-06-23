@@ -1,5 +1,8 @@
 const http = require(`http`);
-const server = new http.server(function(req, res){
-	res.writeHead = 200;
-});
+const server = http.createServer();
+
+server.on('request', require('/request'));
+
 server.listen(8888, '127.0.0.1');
+
+console.log('server is running');

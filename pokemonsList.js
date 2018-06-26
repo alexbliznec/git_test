@@ -1,0 +1,1 @@
+module.exports = ['Bulbasaur', 'Charmander', 'Squirtle', 'Metapod', 'Weedle', 'Pikachu', 'Spearow', 'Nidoran'];
